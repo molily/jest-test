@@ -1,7 +1,10 @@
 /** @type {import('@jest/types').Config.InitialOptions} */
 const config = {
   transform: {
-    "^.+\\.svelte$": ["svelte-jester", { preprocess: true }],
+    "^.+\\.svelte$": [
+      "./node_modules/svelte-jester/dist/transformer.mjs",
+      { preprocess: true },
+    ],
   },
   extensionsToTreatAsEsm: [".svelte"],
   testEnvironment: "jsdom",
