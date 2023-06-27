@@ -1,4 +1,4 @@
-import HelloWorld from './HelloWorld.svelte';
+import HelloWorld from "./HelloWorld.svelte";
 
 it("renders", () => {
   const element = document.createElement("div");
