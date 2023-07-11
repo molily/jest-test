@@ -29,6 +29,7 @@
     "jest-environment-jsdom": "^29.6.1",
     "sass": "^1.63.6",
     "svelte": "^4.0.5",
+    "svelte-eslint-parser": "^0.32.1",
     "svelte-jester": "^2.3.2",
     "svelte-preprocess": "^5.0.4",
     "typescript": "^5.1.6"
