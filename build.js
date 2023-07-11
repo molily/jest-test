@@ -1,3 +1,4 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 import esbuild from 'esbuild';
 import sveltePlugin from 'esbuild-svelte';
 import {
